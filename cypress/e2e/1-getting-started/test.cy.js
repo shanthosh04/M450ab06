@@ -3,6 +3,6 @@ describe("Erste Test Suite", () => {
       cy.visit("https://www.google.com");
       cy.get("#L2AGLb").click();
     });
-
+    cy.get("#L2AGLb").click();
   });
   
