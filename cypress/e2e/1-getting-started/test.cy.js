@@ -1,8 +1,8 @@
-describe("Erste Test Suite", () => {
-    it("Eine Website öfnnen", () => {
-      cy.visit("https://www.google.com");
-      cy.get("#L2AGLb").click();
-    });
-    cy.get("#L2AGLb").click();
-  });
-  
+describe('open google', () => {
+  it('passes', () => {
+    cy.visit('https://google.com')
+    cy.get("#L2AGLb").click()
+    cy.get("#APjFqb").type("CsBe{enter}")
+  })
+
+})
